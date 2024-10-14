@@ -15,6 +15,12 @@
 9. [Contributing](#contributing)
 10. [License](#license)
 
+## Local run
+
+```bash
+python -m uvicorn main:app --reload
+```
+
 ## Introduction
 
 GroqCrawl is a powerful and user-friendly web crawling and scraping application built with Streamlit and powered by PocketGroq. It provides an intuitive interface for extracting LLM friendly AI consumable content from websites, with support for single-page scraping, multi-page crawling, and site mapping.

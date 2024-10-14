@@ -4,6 +4,10 @@ import json
 import sys
 from pocketgroq import GroqProvider
 from typing import List, Dict, Any
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 app = FastAPI()
 
